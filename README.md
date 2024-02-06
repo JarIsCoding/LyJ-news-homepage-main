@@ -1,3 +1,13 @@
+Jared Ly
+2/6/2024
+News-Homepage-FrontEnd-Challenge
+By using tailwind and expirmenting with md: lg: and sm: I created responsiveness and attempted to recreate the site best I could off vision
+Peer reviewer -
+Peer review -
+
+
+
+
 # Frontend Mentor - News homepage
 
 ![Design preview for the News homepage coding challenge](./design/desktop-preview.jpg)
