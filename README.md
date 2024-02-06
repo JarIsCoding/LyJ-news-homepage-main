@@ -2,11 +2,13 @@ Jared Ly
 2/6/2024
 News-Homepage-FrontEnd-Challenge
 By using tailwind and expirmenting with md: lg: and sm: I created responsiveness and attempted to recreate the site best I could off vision
-Peer reviewer -
-Peer review -
+Peer reviewer - Brandon Nguyen
+Peer review - 
+The desktop and tablet versions looks really nice. However, I think you're missing the hover effects on the navbar items, buttons, etc... In the design folder there's a active-states image that shows what the active effects look like. Also the pictures at the bottom could be lined up better. For example the 3rd picture should be lined up with the news box
 
+For mobile the hamburger menu should turn into a side bar instead of a dropdown. But other than that the mobile looks pretty similar. 
 
-
+Overall, the website and responsiveness were really good. Good Job.
 
 # Frontend Mentor - News homepage
 
