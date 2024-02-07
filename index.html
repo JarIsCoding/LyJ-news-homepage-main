@@ -39,7 +39,12 @@
           class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
           aria-controls="navbar-default" aria-expanded="false">
           <span class="sr-only">Open main menu</span>
-          <svg width="40" height="17" xmlns="http://www.w3.org/2000/svg"><g fill="#00001A" fill-rule="evenodd"><path d="M0 0h40v3H0zM0 7h40v3H0zM0 14h40v3H0z"/><path d="M0 0h40v3H0z"/></g></svg>
+          <svg width="40" height="17" xmlns="http://www.w3.org/2000/svg">
+            <g fill="#00001A" fill-rule="evenodd">
+              <path d="M0 0h40v3H0zM0 7h40v3H0zM0 14h40v3H0z" />
+              <path d="M0 0h40v3H0z" />
+            </g>
+          </svg>
         </button>
         <div class="hidden w-full md:block md:w-auto" id="navbar-default">
           <ul
@@ -51,7 +56,7 @@
             </li>
             <li>
               <a href="#"
-                class="block py-2 px-3 text-gray-500 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">New</a>
+                class="block py-2 px-3  text-gray-500 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">New</a>
             </li>
             <li>
               <a href="#"
@@ -74,7 +79,7 @@
       <div class="col-span-2 ps-5 lg:ps-32 pe-5 pb-20 lg:pb-0">
         <div>
           <img class="w-full block md:hidden" src="./assets/images/image-web-3-mobile.jpg" alt="mobile pattern image">
-        <img class="hidden md:block" src="./assets/images/image-web-3-desktop.jpg" alt="desktop pattern image">
+          <img class="hidden md:block" src="./assets/images/image-web-3-desktop.jpg" alt="desktop pattern image">
         </div>
 
         <div class="grid lg:grid-cols-2 pt-8">
@@ -87,7 +92,8 @@
               hands of the people. But is it really fulfilling its promise?
             </div>
             <div>
-              <button class="bg-red-500 text-white text-[16px] w-[225px] h-[60px] interb tracking-wider">
+              <button
+                class="bg-red-500 hover:bg-[#01021A] text-white text-[16px] w-[225px] h-[60px] interb tracking-wider">
                 <div class="grid grid-cols-2">
                   <div>
                     <p class="text-end pe-2">
@@ -140,7 +146,7 @@
       </div>
     </div>
 
-    <div class="pt-20 grid grid-cols-1 lg:grid-cols-3 ps-5 pe-5 lg:ps-32 lg:pe-32">
+    <div class="pt-20 grid grid-cols-1 lg:grid-cols-3 ps-5 pe-5 lg:ps-32 lg:pe-16">
       <div class="grid grid-cols-3 pb-16 lg:pb-0">
         <div class="pe-0 lg:pe-7">
           <img src="./assets/images/image-retro-pcs.jpg" alt="retro pc">
@@ -149,9 +155,9 @@
           <div class="interb text-gray-300 text-[40px] leading-none">
             01
           </div>
-          <div class="interb text-[18px]">
+          <a class="hover:text-red-500 interb text-[18px]" href="#">
             Reviving Retro PCs
-          </div>
+          </a>
           <div class="lg:pe-12 pe-0 leading-[30px]">
             What happens when old PCs are given modern upgrades?
           </div>
@@ -166,9 +172,9 @@
           <div class="interb text-gray-300 text-[40px] leading-none pb-2">
             02
           </div>
-          <div class="interb text-[18px]">
+          <a class="hover:text-red-500 interb text-[18px]" href="#">
             Top 10 Laptops of 2022
-          </div>
+          </a>
           <div class="lg:pe-12 pe-0 leading-[30px]">
             Our best picks for various needs and budgets.
           </div>
@@ -183,9 +189,9 @@
           <div class="interb text-gray-300 text-[40px] leading-none pb-2">
             03
           </div>
-          <div class="interb text-[18px]">
+          <a class="hover:text-red-500 interb text-[18px]" href="#">
             The Growth of Gaming
-          </div>
+          </a>
           <div class="lg:pe-12 pe-0 leading-[30px]">
             How the pandemic has sparked fresh opportunities.
           </div>
